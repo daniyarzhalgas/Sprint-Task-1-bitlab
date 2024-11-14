@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 70px;
+}
+
+.header_line{
+    margin-top: 50px;
+    padding: 15px 25px;
+    background-color: #84000f;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    justify-content: space-between;
+}
+.header_line nav{
+    display: flex;
+    gap: 15px;
+}
+.header_line nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.main-poster{
+    margin-top: 30px;
+    display: flex;
+    background-color: aqua;
+    padding: 25px ;
+}
+
+.poster img{
+    width: 700px;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width:50%;
+    padding: 20px 25px;
+}
+
+.text p{
+    font-size: 20px;
+}
+.latest-news{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.latest-posts{
+    display: flex;
+    gap: 40px;
+}
+.latest-news-title{
+    margin: 20px 0;
+}
+.post-card{
+    width: 20vw;
+    border: 1px solid gray;
+}
+.post-card img{
+    width: 100%;
+}
+.post-desc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px;
+}
+.post-desc p{
+    color: gray;
+}
+.post-desc button{
+    background-color: #84000f;
+    color: #fff;
+    padding: 10px 15px;
+    width: max-content;
+    border: none;
+    outline: none;
+}
